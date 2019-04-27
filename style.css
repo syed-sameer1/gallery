@@ -1,0 +1,298 @@
+body {
+    /* background-image: radial-gradient(#333, #000); */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div#center {
+    background-color: #6DB432;
+    height: 200px;
+    width: 700px;
+    margin: 200px 0px 0px 300px;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    transform: skewX(-10deg);
+}
+
+div#main {
+    height: 400px;
+    width: 200px;
+    background-color: #c8c8c9;
+    display: inline-block;
+    margin: 120px 0px 0px 700px;
+    transform: skewX(10deg);
+}
+
+#wellcome {
+    font-family: 'Pacifico';
+    color: wheat;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#gallery {
+    font-family: 'Pacifico';
+    color: wheat;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 50px;
+    margin-left: 80px;
+}
+
+/* main */
+
+div#button {
+    margin: 150px 25px;
+}
+
+a {
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    padding: 8px 50px;
+    border-radius: 25px;
+    background-color: #6DB432;
+    border: #6DB432;
+    color: wheat;
+    text-shadow: 2px 2px 5px #000000;
+    text-decoration: none;
+    animation: button 2s alternate infinite;
+}
+
+a:hover {
+    box-shadow: 2px 2px 5px #000000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@keyframes a {
+    0% {
+        background-color: #6DB432;
+    }
+    100% {
+        background-color: #7b7b7d;
+    }
+}
+
+/* animation */
+
+.leave1 {
+    height: 20px;
+}
+
+.leave2 {
+    height: 50px;
+}
+
+.leave3 {
+    height: 80px;
+}
+
+.leave4 {
+    height: 30px;
+}
+
+section {
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#333, #000);
+}
+
+.set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.set div {
+    position: absolute;
+    display: block;
+}
+
+.set div:nth-child(1) {
+    left: 20%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+
+.set div:nth-child(2) {
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(3) {
+    left: 70%;
+    animation: animate 25s linear infinite;
+}
+
+.set div:nth-child(4) {
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(5) {
+    left: 85%;
+    animation: animate 18s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(6) {
+    left: 0%;
+    animation: animate 12s linear infinite;
+}
+
+.set div:nth-child(7) {
+    left: 15%;
+    animation: animate 14s linear infinite;
+}
+
+.set div:nth-child(8) {
+    left: 60%;
+    animation: animate 15s linear infinite;
+}
+
+.set div:nth-child(9) {
+    left: 70%;
+    animation: animate 15s linear infinite;
+    animation-delay: -2s;
+}
+
+.set div:nth-child(10) {
+    left: 80%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5.5s;
+}
+
+.set div:nth-child(11) {
+    left: 90%;
+    animation: animate 15s linear infinite;
+}
+
+.set div:nth-child(12) {
+    left: 95%;
+    animation: animate 15s linear infinite;
+    animation-delay: -4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(-20px) rotate(45deg);
+    }
+    40% {
+        transform: translateX(-20px) rotate(90deg);
+    }
+    60% {
+        transform: translateX(20px) rotate(135deg);
+    }
+    80% {
+        transform: translateX(-20px) rotate(180deg);
+    }
+    100% {
+        top: 110%;
+        transform: translateX(-20px) rotate(225deg);
+    }
+}
+
+.set2 {
+    transform: scale(2) rotateY(180deg);
+    filter: blur(2px);
+}
+
+.set3 {
+    transform: scale(0.8) rotateX(180deg);
+    filter: blur(4px);
+}
+
+.set4 {
+    transform: scale(1) rotateX(90deg);
+}
+
+/* hover */
+
+/* .set div:nth-child(1):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(2):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(3):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(4):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(5):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(6):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(7):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(8):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(9):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(10):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(11):hover{
+    animation: hover 5s linear infinite;
+}
+.set div:nth-child(12):hover{
+    animation: hover 5s linear infinite;
+}
+@keyframes hover{
+    0%{
+        transform: rotate(225deg);
+    }
+    10%{
+        transform: rotate(180deg);
+
+    }
+    20%{
+        transform: rotate(135deg);
+
+    }
+    40%{
+        transform: rotate(90deg);
+
+    }
+    60%{
+        transform: rotate(45deg);
+
+    }
+    80%{
+        transform: rotate(30deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+} */
+
+/* hover */
+
+/* animation */
+
+/* main */

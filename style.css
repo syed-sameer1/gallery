@@ -225,69 +225,60 @@ section {
 
 /* hover */
 
-/* .set div:nth-child(1):hover{
+/* .set div:nth-child(1):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(2):hover{
+
+.set div:nth-child(2):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(3):hover{
+
+.set div:nth-child(3):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(4):hover{
+
+.set div:nth-child(4):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(5):hover{
+
+.set div:nth-child(5):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(6):hover{
+
+.set div:nth-child(6):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(7):hover{
+
+.set div:nth-child(7):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(8):hover{
+
+.set div:nth-child(8):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(9):hover{
+
+.set div:nth-child(9):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(10):hover{
+
+.set div:nth-child(10):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(11):hover{
+
+.set div:nth-child(11):hover {
     animation: hover 5s linear infinite;
 }
-.set div:nth-child(12):hover{
+
+.set div:nth-child(12):hover {
     animation: hover 5s linear infinite;
 }
-@keyframes hover{
-    0%{
+
+@keyframes hover {
+    0% {
         transform: rotate(225deg);
     }
-    10%{
-        transform: rotate(180deg);
-
-    }
-    20%{
-        transform: rotate(135deg);
-
-    }
-    40%{
-        transform: rotate(90deg);
-
-    }
-    60%{
-        transform: rotate(45deg);
-
-    }
-    80%{
-        transform: rotate(30deg);
-
-    }
-    100%{
+    100% {
         transform: rotate(0deg);
-
     }
 } */
 

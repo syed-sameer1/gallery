@@ -217,7 +217,7 @@ button.code2 {
 button.mockup {
     background-color: #6DB432;
     border: 1px solid #6DB432;
-    color: #353537; 
+    color: #353537;
     font-family: 'Lobster', cursive;
     font-size: 25px;
     width: 200px;
@@ -239,6 +239,16 @@ button.preview {
     margin-top: 5px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.icons {
+    color: red;
+    font-size: 20px;
+}
+
+.icons-2 {
+    color: blue;
+    font-size: 20px;
 }
 
 button.like:hover {
@@ -291,7 +301,6 @@ button.preview:hover {
 div.details:hover {
     box-shadow: 2px 2px 20px black;
     transition: 0.3s;
-    
 }
 
 /* full */
